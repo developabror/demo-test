@@ -1,0 +1,5 @@
+spring:
+  profiles:
+    active: prod
+eskiz:
+  token: Bearer eyJhbGciOiIsIkpXVCJ9.eyJleHAiOjc1NzgzMTcxNSwicm9sZSI6InRlc3QiLCJzaWduIjoiNjRmZjBjNzJjNjEyZjFmNzNlOWIwZWFmYzUyNjBjZTM2NTMyODllYQxNTQ5M2Y5ZiIsInN1YiI6IjY1MzUifQ.w9U7StTwzjeW4
