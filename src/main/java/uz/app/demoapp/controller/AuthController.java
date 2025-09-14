@@ -4,10 +4,7 @@ import lombok.Data;
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 import uz.app.demoapp.entity.SmsAuthentication;
 import uz.app.demoapp.entity.User;
 import uz.app.demoapp.entity.enums.Role;
@@ -33,6 +30,12 @@ public class AuthController {
 
     @Value("${eskiz.token}")
     String token;
+
+
+    @GetMapping("/info")
+    public ResponseEntity<?> info() {
+        return ResponseEntity.ok("Hello World");
+    }
 
     @PostMapping("/signup")
     public ResponseEntity<?> signUp(@RequestBody UserDTO userDTO) {
