@@ -1,0 +1,18 @@
+### GET request to example server
+POST notify.eskiz.uz/api/auth/login
+Content-Type: application/json
+
+{
+  "email": "developabror@gmail.com",
+  "password": "testPassword"
+}
+###
+POST notify.eskiz.uz/api/message/sms/send
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIU.eyJleHAcxNSwicm9sZSI6InRlc3QiLCJzaWduIjoiNjRmZjBjNzJjNjEyZjFmNzNlOWIwZWFmYzUyNjBjZTM2NTMyODllYjMwNzAxYTdkNzU4MTc0OW
+
+{
+  "mobile_phone": "998959662102",
+  "message": "This is test from Eskiz",
+  "from": "4546"
+}

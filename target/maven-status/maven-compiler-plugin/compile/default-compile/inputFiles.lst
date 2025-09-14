@@ -1,0 +1,12 @@
+/home/user/IdeaProjects/G51/modul-10/demo-app/src/main/java/uz/app/demoapp/DemoAppApplication.java
+/home/user/IdeaProjects/G51/modul-10/demo-app/src/main/java/uz/app/demoapp/controller/AuthController.java
+/home/user/IdeaProjects/G51/modul-10/demo-app/src/main/java/uz/app/demoapp/entity/SmsAuthentication.java
+/home/user/IdeaProjects/G51/modul-10/demo-app/src/main/java/uz/app/demoapp/entity/User.java
+/home/user/IdeaProjects/G51/modul-10/demo-app/src/main/java/uz/app/demoapp/entity/enums/Role.java
+/home/user/IdeaProjects/G51/modul-10/demo-app/src/main/java/uz/app/demoapp/feign/EskizFeign.java
+/home/user/IdeaProjects/G51/modul-10/demo-app/src/main/java/uz/app/demoapp/payload/ConfirmDTO.java
+/home/user/IdeaProjects/G51/modul-10/demo-app/src/main/java/uz/app/demoapp/payload/SignInDTO.java
+/home/user/IdeaProjects/G51/modul-10/demo-app/src/main/java/uz/app/demoapp/payload/SmsSender.java
+/home/user/IdeaProjects/G51/modul-10/demo-app/src/main/java/uz/app/demoapp/payload/UserDTO.java
+/home/user/IdeaProjects/G51/modul-10/demo-app/src/main/java/uz/app/demoapp/repository/SmsAuthenticationRepository.java
+/home/user/IdeaProjects/G51/modul-10/demo-app/src/main/java/uz/app/demoapp/repository/UserRepository.java
